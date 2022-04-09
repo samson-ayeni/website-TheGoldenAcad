@@ -1,0 +1,31 @@
+/* Stay Tuned */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+  overflow: hidden;
+}
+
+.content {
+  --positionX: 7;
+  --positionY: 7;
+}
+
+.cssX {
+  font-family: 'Fredoka One', cursive;
+  position: absolute;
+  top: 350px; left: 505px;
+  animation: color 1.5s infinite linear;
+  transition: all 0.9s;
+  font-size: xx-large;
+  z-index: 1;
+  background-color: transparent;
+  white-space: nowrap;
+  font-size: 100px;
+
+  @keyframes color {
+    @for $c from 0 through 10 {
+      #{ $c * 5% } { color: hsl( 145, $c *90%, 40%); }
+    }
+  }
+}
+/* Stay Tuned */

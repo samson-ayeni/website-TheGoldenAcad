@@ -1,0 +1,253 @@
+/*remove outline on buttons*/
+*:focus {
+    outline: 0 !important;
+}
+
+/* IntroButton */
+.introButton {
+    height: 70px;
+    width: 500px;
+    background-color: rgb(199, 202, 11);
+    position: absolute;
+    top: 650px;
+    right: -1250px;
+    font-family: 'Abril Fatface', cursive;
+    border-radius: 50px;
+    box-shadow: 5px 5px rgb(220, 236, 145);
+    transition: ease-out 0.4s;
+    color: rgb(255, 255, 255);
+    outline: none;
+    cursor: url(/img/link-cursor.png),auto;
+    z-index: 3; 
+    font-size: x-large;
+    object-fit: contain;
+}
+.introButton:hover {
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+/* IntroButton*/
+
+/* IntroTitle */
+.introTitle {
+    position: absolute;
+    top: 200px;
+    right: -600px;
+    color: rgb(188, 219, 73);
+    font-size: 70px;
+    font-family: 'Abril Fatface', cursive;
+    transition: ease-out 0.4s;
+    background-color: transparent;
+    white-space: nowrap;
+}
+.introTitle:hover {
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+/* IntroTitle */
+
+.introQuote {
+    color: white;
+    position: absolute;
+    top: 310px;
+    right: -680px;
+    font-size: 32px;
+    background-color: transparent;
+    font-family: 'Gideon Roman', cursive;
+    white-space: nowrap;
+}
+
+/* Money Bag Effect*/
+@keyframes compound {
+    from {transform: translateY(-100px);}
+    to {transform: translateY(50px);}
+}
+/* row 2 */
+ .money1{
+    content: url("./img/money.png");
+    position: absolute;
+    top: 250px;
+    right: -1100px;
+    background-color: transparent;
+    animation: compound 2.2s infinite 0.5s;
+    z-index: 2;
+} 
+.money2{
+    content: url("./img/money.png");
+    position: absolute;
+    top: 240px;
+    right: -1100px;
+    background-color: transparent;
+    animation: compound 2.4s infinite 0.5s;
+    z-index: 2;
+} 
+.money3{
+    content: url("./img/money.png");
+    position: absolute;
+    top: 230px;
+    right: -1100px;
+    background-color: transparent;
+    animation: compound 2.6s infinite 0.5s;
+    z-index: 2;
+} 
+.money4{
+    content: url("./img/money.png");
+    position: absolute;
+    top: 220px;
+    right: -1100px;
+    background-color: transparent;
+    animation: compound 2.8s infinite 0.5s;
+    z-index: 2;
+} 
+.money5{
+    content: url("./img/money.png");
+    position: absolute;
+    top: 210px;
+    right: -110px;
+    background-color: transparent;
+    animation: compound 3s infinite 0.5s;
+    z-index: 2;
+}
+/* row 2*/
+
+/* row 1 */
+.money6{
+    content: url("./img/money.png");
+    position: absolute;
+    top: 210px;
+    right: -1250px;
+    background-color: transparent;
+    animation: compound 2.2s infinite 0.5s;
+    z-index: 2;
+} 
+.money7{
+    content: url("./img/money.png");
+    position: absolute;
+    top: 240px;
+    right: -1250px;
+    background-color: transparent;
+    animation: compound 2.4s infinite 0.5s;
+    z-index: 2;
+}
+.money8{
+    content: url("./img/money.png");
+    position: absolute;
+    top: 230px;
+    right: -1250px;
+    background-color: transparent;
+    animation: compound 2.6s infinite 0.5s;
+    z-index: 2;
+} 
+.money9{
+    content: url("./img/money.png");
+    position: absolute;
+    top: 220px;
+    right: -1250px;
+    background-color: transparent;
+    animation: compound 2.8s infinite 0.5s;
+    z-index: 2;
+} 
+.money10{
+    content: url("./img/money.png");
+    position: absolute;
+    top: 210px;
+    right: -1250px;
+    background-color: transparent;
+    animation: compound 3s infinite 0.5s;
+    z-index: 2;
+}
+/* row 1 */ 
+
+/* row 3 */
+.money11{
+    content: url("./img/money.png");
+    position: absolute;
+    top: 210px;
+    right: -1390px;
+    background-color: transparent;
+    animation: compound 2.2s infinite;
+    z-index: 2;
+} 
+.money12{
+    content: url("./img/money.png");
+    position: absolute;
+    top: 240px;
+    right: -1390px;
+    background-color: transparent;
+    animation: compound 2.4s infinite;
+    z-index: 2;
+} 
+.money13{
+    content: url("./img/money.png");
+    position: absolute;
+    top: 230px;
+    right: -1390px;
+    background-color: transparent;
+    animation: compound 2.6s infinite;
+    z-index: 2;
+} 
+.money14{
+    content: url("./img/money.png");
+    position: absolute;
+    top: 220px;
+    right: -1390px;
+    background-color: transparent;
+    animation: compound 2.8s infinite;
+    z-index: 2;
+} 
+.money15{
+    content: url("./img/money.png");
+    position: absolute;
+    top: 210px;
+    right: -1390px;
+    background-color: transparent;
+    animation: compound 3s infinite;
+    z-index: 2;
+}
+/* row 3 */ 
+/* Money Bag Effect*/
+
+/* The Compound Effect */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+  overflow: hidden;
+}
+
+.content {
+  --positionX: 7;
+  --positionY: 7;
+}
+
+.css {
+  font-family: 'Fredoka One', cursive;
+  position: absolute;
+  top: 310px; left: 1025px;
+  animation: color 3s infinite linear;
+  transition: all 0.5s;
+  font-size: xx-large;
+  z-index: 1;
+
+  @keyframes color {
+    @for $c from 0 through 10 {
+      #{$c * 5%} { color: hsl(145, $c *90%, 40%); }
+    }
+  }
+}
+/* The Compound Effect */
+
+.road{
+    content: url("./img/road.png");
+    position: absolute;
+    top: 580px;
+    right: -800px;
+    background-color: transparent;
+}
+
+.man{
+    content: url("./img/running-man.png");
+    position: absolute;
+    top: 600px;
+    right: -600px;
+    background-color: transparent;
+}

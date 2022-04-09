@@ -1,0 +1,160 @@
+.fxIntro {
+    position: absolute;
+    background-color: transparent;
+    color: rgb(36, 204, 3);
+    height: 25px;
+    width: 200px;
+    top: 200px;
+    left: 650px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 75px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.fxStep1 {
+    position: absolute;
+    background-color: transparent;
+    color: rgb(36, 204, 3);
+    top: 775px;
+    left: 175px;
+    width: 250px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.fxStep1-pic{
+    position: absolute;
+    content: url(./img/bank.png);
+    top: 410px;
+    left: 45px;
+    background-color: transparent;
+
+}
+
+.fxStep2 {
+    position: absolute;
+    background-color: transparent;
+    color: rgb(36, 204, 3);
+    top: 775px;
+    left: 650px;
+    width: 170px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.fxStep2-pic{
+    position: absolute;
+    content: url(./img/in_the_middle.png);
+    top: 415px;
+    left: 490px;
+    background-color: transparent;
+
+}
+
+.fxStep3 {
+    position: absolute;
+    background-color: transparent;
+    color: rgb(36, 204, 3);
+    top: 775px;
+    left: 1075px;
+    width: 165px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.fxStep3-pic{
+    position: absolute;
+    content: url(./img/thinking.png);
+    top: 390px;
+    left: 890px;
+    background-color: transparent;
+
+}
+
+.fxStep4 {
+    position: absolute;
+    background-color: transparent;
+    color: rgb(36, 204, 3);
+    top: 775px;
+    left: 1475px;
+    width: 190px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+.fxStep4-1 {
+    position: absolute;
+    background-color: transparent;
+    color: rgb(36, 204, 3);
+    top: 820px;
+    left: 1475px;
+    width: 150px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.fxStep4-pic{
+    position: absolute;
+    content: url(./img/winning.png);
+    top: 345px;
+    left: 1325px;
+    background-color: transparent;
+
+}
+
+.arrow1-pic{
+    position: absolute;
+    content: url(./img/arrow.png);
+    background-color: transparent;
+    top: 400px;
+    left: 250px;
+}
+.arrow2-pic{
+    position: absolute;
+    content: url(./img/arrow.png);
+    background-color: transparent;
+    top: 400px;
+    left: 725px;
+}
+.arrow3-pic{
+    position: absolute;
+    content: url(./img/arrow.png);
+    background-color: transparent;
+    top: 400px;
+    left: 1075px;
+}
+
+
+.gold-text {
+    color:gold;
+}

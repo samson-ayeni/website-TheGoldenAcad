@@ -1,0 +1,85 @@
+.up {
+    color: green;
+}
+
+.down {
+    color: rgb(231, 18, 18);
+}
+
+.trend {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    margin-bottom: 10px;
+    right: -25px;
+    top: 300px;
+    white-space: nowrap;
+}
+
+
+.monthly {
+    content: url(./img/m.png);
+    width: 400px;
+    right: -500px;
+    top: 175px;
+}
+.weekly {
+    content: url(./img/w.png);
+    width: 400px;
+    right: -1000px;
+    top: 175px;
+}
+.daily {
+    content: url(./img/d.png);
+    width: 400px;
+    right: -500px;
+    top: 575px;
+}
+.fourHour {
+    content: url(./img/f.png);
+    width: 400px;
+    right: -1000px;
+    top: 575px;
+}
+.oneHour {
+    content: url(./img/o.png);
+    width: 400px;
+    right: -1495px;
+    top: 375px;
+}
+
+.m-title {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    right: -350px;
+    top: 125px;
+}
+.w-title {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    right: -850px;
+    top: 125px;
+}
+.d-title {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    right: -325px;
+    top: 525px;
+}
+.f-title {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    right: -800px;
+    top: 525px;
+}
+.o-title {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    right: -1325px;
+    top: 325px;
+}

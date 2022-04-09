@@ -1,0 +1,7 @@
+/* Used to apply to all css styles but able to overwrite */
+* {
+    cursor: url(/img/point-cursor.png), auto;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    margin: 0;
+}
